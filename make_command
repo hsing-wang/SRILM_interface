@@ -1,1 +1,1 @@
-g++ srilm.h srilm.cc main.cc -I /home/xwang/1-Tools/srilm/include ./lib/i686-m64/liboolm.a ./lib/i686-m64/libdstruct.a ./lib/i686-m64/libmisc.a ./lib/i686-m64/liblattice.a ./lib/i686-m64/libflm.a -lpthread
+g++ srilm.h srilm.cc LanguageModel.h  LanguageModel.cpp main.cc -I /home/xwang/1-Tools/srilm/include ./lib/i686-m64/liboolm.a ./lib/i686-m64/libdstruct.a ./lib/i686-m64/libmisc.a ./lib/i686-m64/liblattice.a ./lib/i686-m64/libflm.a -lpthread
